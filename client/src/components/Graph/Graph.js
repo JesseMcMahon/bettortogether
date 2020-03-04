@@ -19,7 +19,7 @@ const Graph = ({ room }) => {
         <h3 className="graphTeam1">{team1}</h3>
         <h3 className="graphTeam2">{team2}</h3>
       </div>
-      <Modal team1={team1} team2={team2} />
+      <Modal id="modal" team1={team1} team2={team2} />
     </div>
   );
 };

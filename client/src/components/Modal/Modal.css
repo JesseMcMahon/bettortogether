@@ -3,22 +3,27 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border: 1px solid black;
+  border: 2px solid #141e30;
   border-radius: 10px;
   z-index: 10;
-  background-color: white;
+  background-color: #eb3e3e;
   height: 50%;
   width: 50%;
 }
 
 .modalHeader {
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid #141e30;
+  background: #141e30;
 }
 
 .modalHeader h3 {
+  margin-top: 0;
+  padding-top: 3%;
+  background: #141e30;
   text-align: center;
-  font-size: 1.25rem;
+  font-size: 1.8rem;
   font-weight: bold;
+  color: white;
 }
 
 .modalBody {
@@ -36,19 +41,23 @@
 }
 
 .teamPickButton {
-  color: white !important;
+  color: #141e30;
   text-transform: uppercase;
   font-size: 100%;
-  background: #eb3e3e;
+  background: white;
   padding: 20px;
   border-radius: 40px;
-  border: none;
-  width: 20%;
-  margin-top: 12%;
+  border: 2px solid #141e30;
+  width: 90%;
+  margin-top: 10%;
 }
 
 .teamPickButton:hover {
-  background: #d33737;
+  /* background: #d33737; */
+  color: white;
+  background: #141e30;
+  text-decoration: white;
+  border: 2px solid white;
 }
 
 .teamPickOptions {

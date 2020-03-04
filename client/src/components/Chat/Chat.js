@@ -69,7 +69,7 @@ const Chat = ({ location }) => {
           sendMessage={sendMessage}
         />
       </div>
-      <Graph />
+      <Graph room={room} />
     </div>
   );
 };

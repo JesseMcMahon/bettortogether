@@ -1,0 +1,82 @@
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  height: 50%;
+  width: 50%;
+}
+
+.modalHeader {
+  border-bottom: 1px solid black;
+}
+
+.modalHeader h3 {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modalBody {
+  padding: 10px 15px;
+}
+
+.modalOverlay {
+  position: fixed;
+  /* opacity: 0; */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.teamPickButton {
+  color: white !important;
+  text-transform: uppercase;
+  font-size: 100%;
+  background: #eb3e3e;
+  padding: 20px;
+  border-radius: 40px;
+  border: none;
+  width: 20%;
+  margin-top: 12%;
+}
+
+.teamPickButton:hover {
+  background: #d33737;
+}
+
+.teamPickOptions {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.teamPickOption1 {
+  margin-top: 10%;
+  font-size: 1.5em;
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+.teamPickOption2 {
+  margin-top: 10%;
+  font-size: 1.5em;
+  width: 50%;
+  text-align: center;
+  float: right;
+}
+
+.labelOption1 {
+  padding-right: 10%;
+}
+
+.labelOption2 {
+  padding-right: 10%;
+}

@@ -3,20 +3,34 @@
   height: 50%;
   width: 30%;
   margin-left: 5%;
-  margin-bottom: 20%;
   padding: 0;
   text-align: center;
   border-radius: 7%;
 }
 
-.teamLabels {
-  margin-top: 55%;
+.mt0 {
+  margin-top: 0;
+}
+
+.graphHeader {
   width: 100%;
+  height: 10%;
+}
+
+.graphSection {
+  margin-top: 0%;
+  width: 100%;
+  height: 60%;
+}
+
+.teamLabels {
+  width: 100%;
+  height: 100%;
 }
 
 hr {
   padding: 0;
-  margin: 0;
+  margin-bottom: 0%;
 }
 
 .graphTeam1 {
@@ -29,4 +43,26 @@ hr {
   text-align: center;
   float: right;
   width: 50%;
+}
+
+.team1Bar {
+  width: 50%;
+  float: left;
+  height: 100%;
+}
+
+.rect1 {
+  width: 100%;
+  height: 100%;
+}
+
+.team2Bar {
+  width: 50%;
+  float: left;
+  height: 100%;
+}
+
+.rect2 {
+  width: 100%;
+  height: 100%;
 }

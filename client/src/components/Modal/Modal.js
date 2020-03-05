@@ -7,11 +7,8 @@ import Graph from "../Graph/Graph";
 const Modal = ({ team1, team2 }) => {
   const handleClick = event => {
     event.preventDefault();
-
     const chosenTeam = event.target.value;
     console.log(chosenTeam.trim());
-
-    document.getElementById("modal").style.display = "none";
   };
 
   return (
